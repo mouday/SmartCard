@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{C6C5E43D-7CB1-4C58-AC81-F71DAF8C0659}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>智能卡脚本测试工具箱</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DASH_Video_Hairpin_Tool.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>check_128px_1138852_easyicon.net.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DASH_Video_Hairpin_Tool.Properties\Resources.cs" />
+    <Compile Include="DASH_Video_Hairpin_Tool.Properties\Settings.cs" />
+    <Compile Include="DASH_Video_Hairpin_Tool\CardTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DASH_Video_Hairpin_Tool\CardTool.Designer.cs">
+      <DependentUpon>CardTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DASH_Video_Hairpin_Tool\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DASH_Video_Hairpin_Tool\MCAhandler.cs" />
+    <Compile Include="DASH_Video_Hairpin_Tool\Program.cs" />
+    <Compile Include="DASH_Video_Hairpin_Tool\publicConst.cs" />
+    <Compile Include="DASH_Video_Hairpin_Tool\ReadATR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DASH_Video_Hairpin_Tool\ReadATR.Designer.cs">
+      <DependentUpon>ReadATR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DASH_Video_Hairpin_Tool\runPCSC.cs" />
+    <Compile Include="DASH_Video_Hairpin_Tool\TCPConnectFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnicomTool\PCSC.cs" />
+    <Compile Include="UnicomTool\Script.cs" />
+    <Compile Include="UnicomTool\WibAlgrithm.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DASH_Video_Hairpin_Tool.Properties\Resources.resources" />
+    <EmbeddedResource Include="DASH_Video_Hairpin_Tool\CardTool.resx">
+      <DependentUpon>CardTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DASH_Video_Hairpin_Tool\Form1.resources" />
+    <EmbeddedResource Include="DASH_Video_Hairpin_Tool\ReadATR.resx">
+      <DependentUpon>ReadATR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DASH_Video_Hairpin_Tool\TCPConnectFrm.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="check_128px_1138852_easyicon.net.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\PSY\Desktop\视频加密模组生产发卡工具\obj\x86\Debug\DASH Video Hairpin Tool.csprojResolveAssemblyReference.cache
+C:\Users\PSY\Desktop\视频加密模组生产发卡工具\obj\x86\Debug\DASH Video Hairpin Tool.csproj.GenerateResource.Cache
+C:\Users\PSY\Desktop\视频加密模组生产发卡工具\obj\x86\Debug\DASH_Video_Hairpin_Tool.CardTool.resources
+C:\Users\PSY\Desktop\视频加密模组生产发卡工具\obj\x86\Debug\DASH_Video_Hairpin_Tool.ReadATR.resources
+C:\Users\PSY\Desktop\视频加密模组生产发卡工具\bin\Debug\智能卡脚本测试工具箱.exe
+C:\Users\PSY\Desktop\视频加密模组生产发卡工具\bin\Debug\智能卡脚本测试工具箱.pdb
+C:\Users\PSY\Desktop\视频加密模组生产发卡工具\obj\x86\Debug\智能卡脚本测试工具箱.exe
+C:\Users\PSY\Desktop\视频加密模组生产发卡工具\obj\x86\Debug\智能卡脚本测试工具箱.pdb
+D:\Code\智能卡脚本测试工具箱\obj\x86\Debug\智能卡脚本测试工具箱.exe
+D:\Code\智能卡脚本测试工具箱\obj\x86\Debug\智能卡脚本测试工具箱.pdb
+D:\Code\智能卡脚本测试工具箱\obj\x86\Debug\DASH Video Hairpin Tool.csprojResolveAssemblyReference.cache
+D:\Code\智能卡脚本测试工具箱\obj\x86\Debug\DASH_Video_Hairpin_Tool.CardTool.resources
+D:\Code\智能卡脚本测试工具箱\obj\x86\Debug\DASH_Video_Hairpin_Tool.ReadATR.resources
+D:\Code\智能卡脚本测试工具箱\obj\x86\Debug\DASH Video Hairpin Tool.csproj.GenerateResource.Cache
+D:\Code\智能卡脚本测试工具箱\bin\Debug\智能卡脚本测试工具箱.exe
+D:\Code\智能卡脚本测试工具箱\bin\Debug\智能卡脚本测试工具箱.pdb
