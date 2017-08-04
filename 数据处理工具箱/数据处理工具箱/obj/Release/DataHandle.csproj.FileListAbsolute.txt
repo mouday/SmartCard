@@ -1,0 +1,15 @@
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\DataHandle.exe
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.csprojResolveAssemblyReference.cache
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.Properties.Resources.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.csproj.GenerateResource.Cache
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.exe
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormPetroChina.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormMain.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormSocial.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.csproj.ResolveComReference.cache
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\NPOI.dll
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\NPOI.OOXML.dll
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\NPOI.OpenXml4Net.dll
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\NPOI.OpenXmlFormats.dll
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\NPOI.xml
