@@ -1,0 +1,8 @@
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\bin\Release\智能卡脚本测试工具箱.exe
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\bin\Release\智能卡脚本测试工具箱.pdb
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Release\DASH_Video_Hairpin_Tool.CardTool.resources
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Release\DASH_Video_Hairpin_Tool.ReadATR.resources
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Release\DASH Video Hairpin Tool.csproj.GenerateResource.Cache
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Release\智能卡脚本测试工具箱.exe
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Release\智能卡脚本测试工具箱.pdb
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Release\DASH Video Hairpin Tool.csprojResolveAssemblyReference.cache

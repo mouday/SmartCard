@@ -15,3 +15,6 @@ D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Debug\NPOI.O
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Debug\NPOI.OpenXml4Net.dll
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Debug\NPOI.OpenXmlFormats.dll
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Debug\NPOI.xml
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Debug\DataHandle.FormLable_ChongqingMobile.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Debug\DataHandle.FormFindCard.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Debug\DataHandle.FormXlsToTxt.resources

@@ -14,3 +14,11 @@ D:\Code\智能卡脚本测试工具箱\obj\x86\Debug\DASH_Video_Hairpin_Tool.Rea
 D:\Code\智能卡脚本测试工具箱\obj\x86\Debug\DASH Video Hairpin Tool.csproj.GenerateResource.Cache
 D:\Code\智能卡脚本测试工具箱\bin\Debug\智能卡脚本测试工具箱.exe
 D:\Code\智能卡脚本测试工具箱\bin\Debug\智能卡脚本测试工具箱.pdb
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Debug\智能卡脚本测试工具箱.exe
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Debug\智能卡脚本测试工具箱.pdb
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\bin\Debug\智能卡脚本测试工具箱.exe
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\bin\Debug\智能卡脚本测试工具箱.pdb
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Debug\DASH Video Hairpin Tool.csprojResolveAssemblyReference.cache
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Debug\DASH_Video_Hairpin_Tool.CardTool.resources
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Debug\DASH_Video_Hairpin_Tool.ReadATR.resources
+D:\GitHub\SmartCard\智能卡脚本测试工具箱\obj\x86\Debug\DASH Video Hairpin Tool.csproj.GenerateResource.Cache

@@ -16,3 +16,12 @@ D:\Code\PrgTxtTransform\PrgTxtTransform\bin\Debug\研发数据测试工具包.ex
 D:\Code\PrgTxtTransform\PrgTxtTransform\bin\Debug\研发数据测试工具包.pdb
 D:\Code\PrgTxtTransform\PrgTxtTransform\obj\Debug\研发数据测试工具包.exe
 D:\Code\PrgTxtTransform\PrgTxtTransform\obj\Debug\研发数据测试工具包.pdb
+D:\GitHub\SmartCard\PrgTxtTransform\PrgTxtTransform\bin\Debug\研发数据测试工具包.exe.config
+D:\GitHub\SmartCard\PrgTxtTransform\PrgTxtTransform\obj\Debug\研发数据测试工具包.exe
+D:\GitHub\SmartCard\PrgTxtTransform\PrgTxtTransform\obj\Debug\研发数据测试工具包.pdb
+D:\GitHub\SmartCard\PrgTxtTransform\PrgTxtTransform\bin\Debug\研发数据测试工具包.exe
+D:\GitHub\SmartCard\PrgTxtTransform\PrgTxtTransform\bin\Debug\研发数据测试工具包.pdb
+D:\GitHub\SmartCard\PrgTxtTransform\PrgTxtTransform\obj\Debug\PrgTxtTransform.csprojResolveAssemblyReference.cache
+D:\GitHub\SmartCard\PrgTxtTransform\PrgTxtTransform\obj\Debug\PrgTxtTransform.Form1.resources
+D:\GitHub\SmartCard\PrgTxtTransform\PrgTxtTransform\obj\Debug\PrgTxtTransform.Properties.Resources.resources
+D:\GitHub\SmartCard\PrgTxtTransform\PrgTxtTransform\obj\Debug\PrgTxtTransform.csproj.GenerateResource.Cache

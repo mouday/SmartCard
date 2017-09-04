@@ -73,8 +73,12 @@
             this.panelPetroData = new System.Windows.Forms.Panel();
             this.tabPageSocial = new System.Windows.Forms.TabPage();
             this.panelSocial = new System.Windows.Forms.Panel();
+            this.tabPageChongqingMobile = new System.Windows.Forms.TabPage();
+            this.panelChongqing = new System.Windows.Forms.Panel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tabPageAddData.SuspendLayout();
             this.gpbAddData.SuspendLayout();
             this.gbBack.SuspendLayout();
@@ -85,6 +89,7 @@
             this.tabControl1.SuspendLayout();
             this.tabPagePetroData.SuspendLayout();
             this.tabPageSocial.SuspendLayout();
+            this.tabPageChongqingMobile.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -485,6 +490,7 @@
             this.tabControl1.Controls.Add(this.tabPageAddData);
             this.tabControl1.Controls.Add(this.tabPagePetroData);
             this.tabControl1.Controls.Add(this.tabPageSocial);
+            this.tabControl1.Controls.Add(this.tabPageChongqingMobile);
             this.tabControl1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tabControl1.Location = new System.Drawing.Point(0, 27);
             this.tabControl1.Name = "tabControl1";
@@ -529,10 +535,30 @@
             this.panelSocial.Size = new System.Drawing.Size(520, 360);
             this.panelSocial.TabIndex = 0;
             // 
+            // tabPageChongqingMobile
+            // 
+            this.tabPageChongqingMobile.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPageChongqingMobile.Controls.Add(this.panelChongqing);
+            this.tabPageChongqingMobile.Location = new System.Drawing.Point(4, 22);
+            this.tabPageChongqingMobile.Name = "tabPageChongqingMobile";
+            this.tabPageChongqingMobile.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageChongqingMobile.Size = new System.Drawing.Size(706, 442);
+            this.tabPageChongqingMobile.TabIndex = 4;
+            this.tabPageChongqingMobile.Text = "重庆移动装箱单";
+            // 
+            // panelChongqing
+            // 
+            this.panelChongqing.Location = new System.Drawing.Point(145, 38);
+            this.panelChongqing.Name = "panelChongqing";
+            this.panelChongqing.Size = new System.Drawing.Size(500, 300);
+            this.panelChongqing.TabIndex = 0;
+            // 
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
+            this.toolStripStatusLabel1,
+            this.toolStripStatusLabel2,
+            this.toolStripStatusLabel3});
             this.statusStrip1.Location = new System.Drawing.Point(0, 498);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(718, 22);
@@ -544,6 +570,18 @@
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(164, 17);
             this.toolStripStatusLabel1.Text = "北京银证信通智能卡有限公司";
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(459, 17);
+            this.toolStripStatusLabel2.Spring = true;
+            // 
+            // toolStripStatusLabel3
+            // 
+            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(80, 17);
+            this.toolStripStatusLabel3.Text = "开发：彭世瑜";
             // 
             // FormMain
             // 
@@ -575,6 +613,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPagePetroData.ResumeLayout(false);
             this.tabPageSocial.ResumeLayout(false);
+            this.tabPageChongqingMobile.ResumeLayout(false);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -628,6 +667,10 @@
         private System.Windows.Forms.Panel panelPetroData;
         private System.Windows.Forms.TabPage tabPageSocial;
         private System.Windows.Forms.Panel panelSocial;
+        private System.Windows.Forms.TabPage tabPageChongqingMobile;
+        private System.Windows.Forms.Panel panelChongqing;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
     }
 }
 

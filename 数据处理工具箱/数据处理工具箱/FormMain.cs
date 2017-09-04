@@ -182,7 +182,7 @@ namespace DataHandle
         {
             List<string> fileList = new List<string>();
             fileList.Clear();
-            fileList = mca.GetFileList(path);
+            fileList = mca.GetMcaList(path);
             DataTable dataTable=new DataTable();
             dataTable.Columns.Add("状态", Type.GetType("System.String"));
             
@@ -297,6 +297,14 @@ namespace DataHandle
                 fm.TopLevel = false;
                 fm.FormBorderStyle = FormBorderStyle.None;
                 panelSocial.Controls.Add(fm);
+                fm.Show();
+            }
+            if (tabControl1.SelectedTab == tabPageChongqingMobile)
+            {
+                FormLable_ChongqingMobile fm = new FormLable_ChongqingMobile();
+                fm.TopLevel = false;
+                fm.FormBorderStyle = FormBorderStyle.None;
+                panelChongqing.Controls.Add(fm);
                 fm.Show();
             }
         }

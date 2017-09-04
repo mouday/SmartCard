@@ -15,7 +15,7 @@ namespace DataHandle
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormSocial());
+            Application.Run(new FormFindCard());
         }
     }
 }

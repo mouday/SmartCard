@@ -6,9 +6,14 @@ using System.IO;
 
 namespace DataHandle
 {
+    //mca文件：
+    //格式如下：(表头加内容)
+    //ICCID,IMSI,打印数据1,打印数据2
+    //89860...,12345...,89860,78890
+    //...
     class mca
     {
-        public static List<string> GetFileList(string folderPath)
+        public static List<string> GetMcaList(string folderPath)
         {
             List<string> list = new List<string>();
             DirectoryInfo folder = new DirectoryInfo(folderPath);
@@ -50,8 +55,6 @@ namespace DataHandle
                 reader.Close();               
             }
             writer.Close();
-        }
-        
-
+        }      
     }
 }

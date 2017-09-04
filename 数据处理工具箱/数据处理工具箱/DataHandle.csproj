@@ -67,6 +67,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileHandle.cs" />
+    <Compile Include="FormFindCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFindCard.Designer.cs">
+      <DependentUpon>FormFindCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLable_ChongqingMobile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLable_ChongqingMobile.Designer.cs">
+      <DependentUpon>FormLable_ChongqingMobile.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +91,12 @@
     <Compile Include="FormSocial.Designer.cs">
       <DependentUpon>FormSocial.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormXlsToTxt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXlsToTxt.Designer.cs">
+      <DependentUpon>FormXlsToTxt.cs</DependentUpon>
+    </Compile>
     <Compile Include="mca.cs" />
     <Compile Include="FormPetroChina.cs">
       <SubType>Form</SubType>
@@ -88,6 +106,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormFindCard.resx">
+      <DependentUpon>FormFindCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLable_ChongqingMobile.resx">
+      <DependentUpon>FormLable_ChongqingMobile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSocial.resx">
       <DependentUpon>FormSocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXlsToTxt.resx">
+      <DependentUpon>FormXlsToTxt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
