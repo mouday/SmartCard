@@ -1,5 +1,4 @@
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\DataHandle.exe
-D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.csprojResolveAssemblyReference.cache
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.Properties.Resources.resources
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.csproj.GenerateResource.Cache
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.exe
@@ -7,11 +6,17 @@ D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\Data
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormMain.resources
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormSocial.resources
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.csproj.ResolveComReference.cache
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormLable_ChongqingMobile.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormFindCard.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormAbout.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormMergeMca.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormUserHelp.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormXlsToTxt.resources
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\ICSharpCode.SharpZipLib.dll
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\NPOI.dll
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\NPOI.OOXML.dll
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\NPOI.OpenXml4Net.dll
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\NPOI.OpenXmlFormats.dll
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\PSY.FileNameSortBySys.dll
 D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\bin\Release\NPOI.xml
-D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormLable_ChongqingMobile.resources
-D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.FormFindCard.resources
+D:\GitHub\SmartCard\数据处理工具箱\数据处理工具箱\obj\Release\DataHandle.csprojResolveAssemblyReference.cache

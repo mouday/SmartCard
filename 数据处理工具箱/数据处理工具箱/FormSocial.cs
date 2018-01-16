@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using FormApp = System.Windows.Forms.Application;
 using NPOI.HSSF.UserModel;
 using NPOI.SS.UserModel;
+using FileNameSortBySys;
 
 namespace DataHandle
 {
@@ -126,7 +127,8 @@ namespace DataHandle
                 if (txtList.Count > 0)
                 {
                     string datapath = Path.Combine(OutputPath, "合并DATA.txt");
-                    CombineTxt(txtList, datapath);
+                    //排序后再合并，保持每次合并结果一致
+                    CombineTxt(FileNameSort.sortFiles(txtList), datapath);
                 }
                 //this.Invoke(delmessage,"ok");
                 //Invoke((EventHandler)delegate { MessageBox.Show("Something"); });
@@ -135,7 +137,8 @@ namespace DataHandle
                 if (xlsList.Count > 0)
                 {
                     string xlsPath = Path.Combine(OutputPath, "合并Excel.xls");
-                    NpoiMergeExcel(xlsList, xlsPath);
+                    //排序后再合并，保持每次合并结果一致
+                    NpoiMergeExcel(FileNameSort.sortFiles(xlsList), xlsPath);
                 }
                 string message = "合并完成\n合并DATA个数：" + txtList.Count + "\n合并Excel个数：" + xlsList.Count + "\n合并照片个数：" + jpgList.Count;
                 MessageBox.Show(message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -165,16 +168,32 @@ namespace DataHandle
                     IRow newRow = sheet1.CreateRow(current);
                     if (row != null)
                     {
-                        for (int j = 0; j <= row.LastCellNum; j++)
+                        int lastColumn = row.LastCellNum;  //获取行最后一个单元格编号
+                        for (int j = 0; j <= lastColumn; j++)
                         {
                             ICell cell = row.GetCell(j);
                             ICell newCell = newRow.CreateCell(j);
                             if (cell != null)
                             {
                                 string cellvalue = cell.ToString();
-                                newCell.SetCellValue(cellvalue);                               
+                                newCell.SetCellValue(cellvalue);
                             }
                         }
+                        
+                        //2018年1月16日，增加合并后文件最后一列添加文件名，便于区分数据是哪个文件夹
+                        string filename = System.IO.Path.GetFileNameWithoutExtension(file);
+
+                        ICell fileCell = newRow.CreateCell(lastColumn + 1);  //新建单元格，存放文件名
+
+                        if (i == 0)  // 表头单独处理
+                        {
+                            fileCell.SetCellValue("FILENAME");
+                        }
+                        else
+                        {
+                            fileCell.SetCellValue(filename);
+                        }
+
                     }
                     current++;
                 }
@@ -233,8 +252,7 @@ namespace DataHandle
         private void CopyJpg(List<string> files,string folder)
         {
             if (!Directory.Exists(folder)) 
-                Directory.CreateDirectory(folder);
-
+                Directory.CreateDirectory(folder);            
             foreach (string file in files)
             {
                 string fileName = Path.GetFileName(file);
@@ -245,7 +263,7 @@ namespace DataHandle
         
         }
         private void CombineTxt(List<string> files,string filePath)
-        { 
+        {          
             StreamWriter writer=new StreamWriter(filePath,true,Encoding.Default);
 
             foreach (string file in files)
@@ -308,7 +326,13 @@ namespace DataHandle
             txtOutput.Text = System.Environment.GetFolderPath(System.Environment.SpecialFolder.DesktopDirectory);
             lblTips.Visible = false;
             //lblTips.Text = "使用说明：将包含格式为txt、jpg、xls的文件夹放入一个目录下，程序会自动将txt、xls合并为一个文件，jpg会合并在一个文件夹";
-        }       
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
        

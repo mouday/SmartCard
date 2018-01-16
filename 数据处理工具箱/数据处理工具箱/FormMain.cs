@@ -182,7 +182,7 @@ namespace DataHandle
         {
             List<string> fileList = new List<string>();
             fileList.Clear();
-            fileList = mca.GetMcaList(path);
+            fileList = Mca.GetMcaList(path);
             DataTable dataTable=new DataTable();
             dataTable.Columns.Add("状态", Type.GetType("System.String"));
             
@@ -198,8 +198,8 @@ namespace DataHandle
                 //this.dataGridView1.Rows[index].Cells[2].Value = mca.GetFileName(file);
                 DataRow row = dataTable.NewRow();
                 row[0] = "未合并";
-                row[1] = mca.GetFileLinesCount(file) - 2;
-                row[2] = mca.GetFileName(file);
+                row[1] = Mca.GetFileLineCount(file) - 2;
+                row[2] = Mca.GetFileName(file);
                 dataTable.Rows.Add(row);
             }
             return dataTable;
@@ -229,7 +229,7 @@ namespace DataHandle
                  dataGridView1.SelectedRows[dataGridView1.SelectedRows.Count - 1].Cells[2].Value 
                  + "-" + dataGridView1.SelectedRows[0].Cells[2].Value+
                  "(" + lblSelectedCount.Text + ")" + ".mca";
-            mca.CombineMCA(fileLists, path);
+            Mca.CombineMCA(fileLists, path);
             MessageBox.Show("     合并完成!\n\n成功合并文件数：" + dataGridView1.SelectedRows.Count+
                 "\n数据条数："+lblSelectedCount.Text,"完成提示框",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }

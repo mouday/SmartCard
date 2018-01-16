@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSocial));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lblTips = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.btnCombine = new System.Windows.Forms.Button();
@@ -38,14 +40,14 @@
             this.txtInput = new System.Windows.Forms.TextBox();
             this.btnInput = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblTips = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lblTips);
             this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.lblTips);
             this.groupBox1.Controls.Add(this.progressBar1);
             this.groupBox1.Controls.Add(this.btnCombine);
             this.groupBox1.Controls.Add(this.txtOutput);
@@ -56,10 +58,19 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 25);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(466, 286);
+            this.groupBox1.Size = new System.Drawing.Size(466, 268);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "社保数据合并";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // lblTips
+            // 
+            this.lblTips.Location = new System.Drawing.Point(57, 193);
+            this.lblTips.Name = "lblTips";
+            this.lblTips.Size = new System.Drawing.Size(186, 17);
+            this.lblTips.TabIndex = 8;
+            this.lblTips.Text = "lblTips";
             // 
             // button1
             // 
@@ -73,7 +84,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(59, 238);
+            this.progressBar1.Location = new System.Drawing.Point(59, 227);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(355, 23);
             this.progressBar1.Step = 1;
@@ -141,20 +152,24 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "文件夹：";
             // 
-            // lblTips
+            // label3
             // 
-            this.lblTips.Location = new System.Drawing.Point(22, 193);
-            this.lblTips.Name = "lblTips";
-            this.lblTips.Size = new System.Drawing.Size(420, 42);
-            this.lblTips.TabIndex = 8;
-            this.lblTips.Text = "label3";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(299, 301);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(179, 12);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "彭世瑜：pengshiyuyx@gmail.com";
             // 
             // FormSocial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(504, 322);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(520, 360);
             this.MinimumSize = new System.Drawing.Size(520, 360);
             this.Name = "FormSocial";
@@ -164,6 +179,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -180,5 +196,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblTips;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -79,8 +79,8 @@ namespace DataHandle
             //string filePath = Path.GetDirectoryName(txtSourceData.Text);
             combineMcaPath = Path.Combine(txtSourceData.Text, "Combine.tmp");
             //获取mca文件列表
-            List<string> sourceFiles = mca.GetMcaList(txtSourceData.Text);
-            mca.CombineMCA(sourceFiles, combineMcaPath);
+            List<string> sourceFiles = Mca.GetMcaList(txtSourceData.Text);
+            Mca.CombineMCA(sourceFiles, combineMcaPath);
 
             //获取补卡卡号文件列表
             FileHandle fileHandle = new FileHandle(txtFindData.Text);

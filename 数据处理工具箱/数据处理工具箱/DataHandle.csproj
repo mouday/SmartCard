@@ -40,19 +40,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\..\..\..\Code\ExcelTest\NPOITest\Net40\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>Net40\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="NPOI">
-      <HintPath>..\..\..\..\Code\ExcelTest\NPOITest\Net40\NPOI.dll</HintPath>
+      <HintPath>Net40\NPOI.dll</HintPath>
     </Reference>
     <Reference Include="NPOI.OOXML">
-      <HintPath>..\..\..\..\Code\ExcelTest\NPOITest\Net40\NPOI.OOXML.dll</HintPath>
+      <HintPath>Net40\NPOI.OOXML.dll</HintPath>
     </Reference>
     <Reference Include="NPOI.OpenXml4Net">
-      <HintPath>..\..\..\..\Code\ExcelTest\NPOITest\Net40\NPOI.OpenXml4Net.dll</HintPath>
+      <HintPath>Net40\NPOI.OpenXml4Net.dll</HintPath>
     </Reference>
     <Reference Include="NPOI.OpenXmlFormats">
-      <HintPath>..\..\..\..\Code\ExcelTest\NPOITest\Net40\NPOI.OpenXmlFormats.dll</HintPath>
+      <HintPath>Net40\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="PSY.FileNameSortBySys">
+      <HintPath>dll\PSY.FileNameSortBySys.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -67,6 +70,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileHandle.cs" />
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormFindCard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,11 +94,23 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMergeMca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMergeMca.Designer.cs">
+      <DependentUpon>FormMergeMca.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSocial.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormSocial.Designer.cs">
       <DependentUpon>FormSocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserHelp.Designer.cs">
+      <DependentUpon>FormUserHelp.cs</DependentUpon>
     </Compile>
     <Compile Include="FormXlsToTxt.cs">
       <SubType>Form</SubType>
@@ -97,15 +118,18 @@
     <Compile Include="FormXlsToTxt.Designer.cs">
       <DependentUpon>FormXlsToTxt.cs</DependentUpon>
     </Compile>
-    <Compile Include="mca.cs" />
     <Compile Include="FormPetroChina.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPetroChina.Designer.cs">
       <DependentUpon>FormPetroChina.cs</DependentUpon>
     </Compile>
+    <Compile Include="mca.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormFindCard.resx">
       <DependentUpon>FormFindCard.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,11 +139,17 @@
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMergeMca.resx">
+      <DependentUpon>FormMergeMca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPetroChina.resx">
       <DependentUpon>FormPetroChina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSocial.resx">
       <DependentUpon>FormSocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserHelp.resx">
+      <DependentUpon>FormUserHelp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormXlsToTxt.resx">
       <DependentUpon>FormXlsToTxt.cs</DependentUpon>
@@ -145,6 +175,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\LOGO.jpg" />
+    <None Include="Resources\LOGO.png" />
     <Content Include="sign_check_128px_1185685_easyicon.net.ico" />
   </ItemGroup>
   <ItemGroup>
