@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 
-namespace DataHandle
+namespace SocialDataMerge
 {
     public partial class FormMain : Form
     {

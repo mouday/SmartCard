@@ -1,4 +1,4 @@
-﻿namespace DataHandle
+﻿namespace SocialDataMerge
 {
     partial class FormAbout
     {
@@ -67,7 +67,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DataHandle.Properties.Resources.LOGO1;
+            this.pictureBox1.Image = global::SocialDataMerge.Properties.Resources.LOGO1;
             this.pictureBox1.Location = new System.Drawing.Point(26, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(424, 91);

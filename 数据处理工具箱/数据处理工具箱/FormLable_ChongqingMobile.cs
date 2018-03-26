@@ -10,7 +10,7 @@ using NPOI.HSSF.UserModel;
 using NPOI.SS.UserModel;
 using System.IO;
 
-namespace DataHandle
+namespace SocialDataMerge
 {
     public partial class FormLable_ChongqingMobile : Form
     {

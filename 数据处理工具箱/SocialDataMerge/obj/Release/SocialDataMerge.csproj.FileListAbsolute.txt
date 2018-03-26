@@ -1,0 +1,4 @@
+D:\GitHub\SmartCard\数据处理工具箱\SocialDataMerge\obj\Release\SocialDataMerge.csprojResolveAssemblyReference.cache
+D:\GitHub\SmartCard\数据处理工具箱\SocialDataMerge\obj\Release\DataHandle.FormSocial.resources
+D:\GitHub\SmartCard\数据处理工具箱\SocialDataMerge\obj\Release\SocialDataMerge.Properties.Resources.resources
+D:\GitHub\SmartCard\数据处理工具箱\SocialDataMerge\obj\Release\SocialDataMerge.csproj.GenerateResource.Cache

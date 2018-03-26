@@ -1,4 +1,4 @@
-﻿namespace DataHandle
+﻿namespace SocialDataMerge
 {
     partial class FormLable_ChongqingMobile
     {

@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace DataHandle
+namespace SocialDataMerge
 {
 
     public partial class FormMergeMca : Form

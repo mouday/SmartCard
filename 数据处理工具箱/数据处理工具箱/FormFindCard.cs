@@ -10,7 +10,7 @@ using System.IO;
 using System.Threading;
 using System.Diagnostics;
 
-namespace DataHandle
+namespace SocialDataMerge
 {
     public partial class FormFindCard : Form
     {

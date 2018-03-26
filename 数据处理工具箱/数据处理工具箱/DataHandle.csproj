@@ -100,12 +100,6 @@
     <Compile Include="FormMergeMca.Designer.cs">
       <DependentUpon>FormMergeMca.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSocial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormSocial.Designer.cs">
-      <DependentUpon>FormSocial.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormUserHelp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,9 +138,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPetroChina.resx">
       <DependentUpon>FormPetroChina.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormSocial.resx">
-      <DependentUpon>FormSocial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormUserHelp.resx">
       <DependentUpon>FormUserHelp.cs</DependentUpon>

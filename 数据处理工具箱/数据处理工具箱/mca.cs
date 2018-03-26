@@ -6,7 +6,7 @@ using System.IO;
 using System.Data;
 using System.Windows.Forms;
 
-namespace DataHandle
+namespace SocialDataMerge
 {
     //mca文件：
     //格式如下：(表头加内容)

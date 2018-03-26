@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataHandle", "数据处理工具箱\DataHandle.csproj", "{0680D4CC-D79D-4A47-94F0-869C977A4949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialDataMerge", "SocialDataMerge\SocialDataMerge.csproj", "{F0FC6586-0E8C-4237-B7FA-9D3AC604B056}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0680D4CC-D79D-4A47-94F0-869C977A4949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0680D4CC-D79D-4A47-94F0-869C977A4949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0680D4CC-D79D-4A47-94F0-869C977A4949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0FC6586-0E8C-4237-B7FA-9D3AC604B056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FC6586-0E8C-4237-B7FA-9D3AC604B056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FC6586-0E8C-4237-B7FA-9D3AC604B056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FC6586-0E8C-4237-B7FA-9D3AC604B056}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

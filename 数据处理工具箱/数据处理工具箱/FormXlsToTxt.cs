@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace DataHandle
+namespace SocialDataMerge
 {
     public partial class FormXlsToTxt : Form
     {

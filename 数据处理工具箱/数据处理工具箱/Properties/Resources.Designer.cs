@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DataHandle.Properties {
+namespace SocialDataMerge.Properties {
     using System;
     
     
